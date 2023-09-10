@@ -1,7 +1,7 @@
 function validarEdad(){
     var edad = document.getElementById('edad').value;
     if(edad < 1 || edad > 130){
-alert("BRUTICO");
+alert("Ingrese una edad correcta");
     } else {
     if(edad < 18){
         alert("Usted es menor de edad");
