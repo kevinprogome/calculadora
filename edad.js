@@ -11,3 +11,16 @@ alert("Ingrese una edad correcta");
     }
 }
 }
+function validarEdade(){
+    var edade = document.getElementById('edade').value;
+    if(edade < 1 || edade > 130){
+alert("Ingrese una edad correcta");
+    } else {
+    if(edade < 18){
+        alert("Usted es menor de edad");
+
+    } else{
+        alert ("Usted es mayor de edad");
+    }
+}
+}
